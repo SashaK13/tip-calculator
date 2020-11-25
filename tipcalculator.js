@@ -11,4 +11,6 @@ function calculate() {
   return false;
 };
 
-$('#calculator').submit(calculate);
+$(document).ready(function(){
+  $('#calculator').submit(calculate);
+});
